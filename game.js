@@ -130,6 +130,12 @@ function runToVillage(promise) {
 	midBtn.innerHTML = locations[1].midBtnText;
 	rightBtn.innerHTML = locations[1].rightBtnText;
 }
+
 function weaponGrabbed() {
 	gameText.innerHTML = locations[2].text;
 }
+
+// I can not figure out how to do a switch case for these options.
+// I want to continue the story with fighting an orc, traversing through the village, buying another weapon, a set of armor. and eventually killing a 'boss'
+// I've been stuck for days and I know I can figure it out but I don't feel confident enough to create a method or class to do the work for this.
+// This project was supposed to be simple but I can't grasp it.
