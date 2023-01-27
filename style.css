@@ -21,7 +21,7 @@ body {
   top: 50%;
   left: 50%;
   width: 600px;
-  padding: 40px;
+  padding: 35px;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.65);
   box-sizing: border-box;
@@ -54,22 +54,22 @@ body {
 
 .content-box .buttons {
   width: 500px;
-  padding: 10px;
+  padding: 3px;
   border-radius: 10px;
   display: inline-flex;
   justify-content: space-around;
 }
 
-.text-box {
-  width: 100%;
+.content-box .text-box {
+  width: 95%;
   height: 100px;
-  padding: 10px 0px;
+  padding: 10px 10px;
   font-size: .95rem;
   color: #ffffff;
   margin-bottom: 10px;
   text-align: center;
   letter-spacing: 1.6px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 10px;
 }
 
@@ -77,7 +77,7 @@ body {
 
 button {
   font-family: "Cinzel", serif;
-  width: 34%;
+  width: 45%;
   margin: 5px;
   height: 55px;
   border-radius: 12px;

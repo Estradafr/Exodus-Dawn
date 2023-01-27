@@ -6,7 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <script src="game.js"></script>
   <title>Exodus Dawn | RPG</title>
 </head>
 
@@ -16,37 +15,35 @@
       <div class="content-box">
         <h1>Exodus Dawn | RPG </h1>
         <!-- STAT BOX DISPLAY -->
-        <div class="stats-box">
-          <span class="stat">
-            <b>
-              Level:
-            </b>
-            <span id="lvlText" style=visibility:hidden>1</span></span>
-          <span class="stat">
-            <b>
-              Health:
-            </b>
-            <span id="healthText" style=visibility:hidden>100</span></span>
-          <span class="stat">
-            <b>
-              Gold:
-            </b>
-            <span id="goldText" style=visibility:hidden>50</span></span>
+        <div class="stats-box" id="statsBox">
+          <span class="stat">Level:
+            <span id="lvlText">1</span>
+          </span>
+          <span class="stat">Health:
+            <span id="healthText">100</span>
+          </span>
+          <span class="stat">Gold:
+            <span id="goldText">50</span>
+          </span>
         </div>
         <!-- TEXT BOX FOR GAME -->
         <div class="text-box">
-          <p id="topText">Welcome hero..</p>
-          <p id="bottomText">Choose your class to begin the adventure!</p>
+          <p id="gameText">Welcome hero..
+            <br>
+            <br>
+            Are you ready to begin the adventure?
+          </p>
         </div>
         <!-- ACTION BUTTONS FOR GAME -->
         <div id="controls" class="buttons">
-          <button id="leftBtn" type="button">Warrior</button>
-          <button id="midBtn" type="button">Mage</button>
-          <button id="rightBtn" type="button">Rogue</button>
+          <button type="button" id="leftBtn"></button>
+          <button type="button" id="midBtn">Begin</button>
+          <button type="button" id="rightBtn"></button>
         </div>
       </div>
     </div>
   </main>
 </body>
+<script src="game.js"></script>
 
 </html>
